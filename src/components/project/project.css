@@ -1,0 +1,81 @@
+.cont-project {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  align-items: center;
+  height: 80vh;
+  padding-top: 30px;
+  padding: 0px 10px 0px 10px;
+}
+.cont-project main {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-top: 1.5px solid rgb(0, 117, 212);
+  border-bottom: 1.5px solid rgb(0, 117, 212);
+  border-radius: 9px;
+  padding: 30px 10px 30px 10px;
+  margin-top: 10px;
+}
+.cont-project h1 {
+  text-align: center;
+  font-family: "Poppins";
+  letter-spacing: 2px;
+}
+.cont-project ul {
+  display: flex;
+  gap: 30px;
+}
+.cont-project ol {
+  border: 1px solid rgb(0, 117, 212);
+  text-align: center;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 5px;
+  padding-bottom: 10px;
+  transition: all 0.4s;
+}
+.cont-project ol:hover {
+  transform: scale(1.1);
+}
+.cont-project ol img {
+  width: 100%;
+}
+.cont-project ol button {
+  width: 100%;
+  background-color: #103787;
+  border: 1.5px solid rgb(0, 117, 212);
+  color: #fff;
+}
+.cont-project ol button:hover {
+  background-color: #001c54;
+}
+.cont-project h3 {
+  font-family: "Poppins";
+  font-size: 16px;
+}
+hr {
+  color: #103787;
+}
+@media (max-width: 600px) {
+  .cont-project ul {
+    display: flex;
+   flex-direction: column;
+  }
+  .cont-project {
+    margin: 0px;
+    padding: 0;
+    height: 180vh;
+  }
+  .cont-project h1 {
+    margin-bottom: 15px;
+  }
+  .cont-project main {
+    padding: 0;
+    margin: 0;
+  } 
+}

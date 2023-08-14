@@ -1,0 +1,25 @@
+.cont-contact {
+  height: 80vh;
+  display: flex;
+  margin-top: 90px;
+  flex-direction: column;
+  align-items: center;
+}
+.cont-ul {
+  border-top: 1.5px solid rgb(0, 117, 212);
+  border-bottom: 1.5px solid rgb(0, 117, 212);
+  border-radius: 9px;
+  text-align: center;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (max-width: 600px) {
+  .cont-contact {
+
+    margin-top: 0px;
+    height: 100vh;
+ 
+  }
+}
