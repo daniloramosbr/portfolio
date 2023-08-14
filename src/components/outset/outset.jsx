@@ -4,42 +4,31 @@ import Menu from "./menu/menu";
 import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 
-
 export default function Outset() {
-
-  useEffect(()=>{
+  useEffect(() => {
     function Reveal() {
       ScrollReveal({ reset: true });
-    ScrollReveal().reveal('.cont-outset main',{
-      delay: 300,
-      rotate: {
-        x: 100,
-       
-      }
-    })
-    ScrollReveal().reveal('.cont-project main',{
-      delay: 300,
-      rotate: {
-        x: 100,
-      
-      
-      }
-    })
-    ScrollReveal().reveal('.cont-contact ul',{
-      delay: 300,
-      rotate: {
-        x: 100,
-      
-       
-      }
-    })
-
-
-
+      ScrollReveal().reveal(".cont-outset main", {
+        delay: 300,
+        rotate: {
+          x: 100,
+        },
+      });
+      ScrollReveal().reveal(".cont-project main", {
+        delay: 300,
+        rotate: {
+          x: 100,
+        },
+      });
+      ScrollReveal().reveal(".cont-contact ul", {
+        delay: 300,
+        rotate: {
+          x: 100,
+        },
+      });
     }
-    Reveal()
-  },[])
-
+    Reveal();
+  }, []);
 
   return (
     <div className="cont-outset" id="up-outset">
@@ -49,11 +38,11 @@ export default function Outset() {
           <h1>DANILO RAMOS</h1>
           <h4>Desenvolvedor Front End</h4>
           <div>
-            Crio aplicações web usando React e JavaScript, estudando para
-            cada vez mais aperfeiçoar minhas habilidades, pois acho que com
-            esforço todos nós podemos chegar ao nosso objetivo. No futuro
-            planejo me aprofundar também no back end para me tornar um
-            desenvolvedor mais completo.
+            Crio aplicações web usando React e JavaScript, estudando para cada
+            vez mais aperfeiçoar minhas habilidades, pois acho que com esforço
+            todos nós podemos chegar ao nosso objetivo. No futuro planejo me
+            aprofundar também no back end para me tornar um desenvolvedor mais
+            completo.
           </div>
         </div>
         <ul className="icons">
