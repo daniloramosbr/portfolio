@@ -10,16 +10,39 @@
   border-bottom: 1.5px solid rgb(0, 117, 212);
   border-radius: 9px;
   text-align: center;
-  padding: 6px;
+  padding: 7px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
+}
+ul ol button {
+width: 100%;
+background-color: #103787;
+border: 1.5px solid rgb(0, 117, 212);
+text-align: center;
+align-items: center;
+display: flex;
+justify-content: center;
+gap: 8px;
+}
+ul ol a {
+text-decoration: none;
+}
+ul ol button ion-icon {
+color: #fff
+}
+ul ol button:hover {
+  background-color: #001c54;
+  transform: scale(1.05);
+}
+ul ol button {
+transition: all 0.1s;
 }
 @media (max-width: 600px) {
   .cont-contact {
 
     margin-top: 0px;
-    height: 100vh;
+    height: 80vh;
  
   }
 }
