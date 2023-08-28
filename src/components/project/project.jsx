@@ -33,7 +33,7 @@ export default function Project() {
             </div>
             <div>
               <p>
-                Projeto criado com React, contém página pra ver os links salvos
+                Projeto criado com React, Api, contém página pra ver os links salvos
                 com LocalStorage.
               </p>
             </div>
@@ -41,19 +41,18 @@ export default function Project() {
           </ol>
           <ol>
             <div>
-              <img src="calcc.png" alt="calculadora" />
+              <img src="clima.png" alt="clima tempo" />
             </div>
             <hr />
             <div>
-              <h3>Calculadora</h3>
+              <h3>Clima Tempo</h3>
             </div>
             <div>
               <p>
-                Calculadora  criada com JavaScript Puro, faz soma, multiplicação,
-                divisão e subtração.
+                Clima Tempo criado com JavaScript Puro, faz requesição á uma api, funcionando perfeitamente.
               </p>
             </div>
-            <a href="https://daniloramosbr.github.io/calculadora-h.c.j/" target="blank"><button>VER PROJETO</button></a>
+            <a href="https://daniloramosbr.github.io/climaa/" target="blank"><button>VER PROJETO</button></a>
           </ol>
         </ul>
        
