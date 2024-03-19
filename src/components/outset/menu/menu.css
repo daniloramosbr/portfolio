@@ -1,0 +1,64 @@
+
+.nav {
+    background-color:#000000;;
+    position: fixed;
+    width: 100%;
+    max-width: 310px;
+    height: 100%;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: all 0.4s;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    border: 1.3px solid rgb(0, 18, 212);
+
+    }
+    
+    .nav div button{
+    width: 90%;
+    background-color: #103787;
+    border: 1.5px solid rgb(0, 117, 212);;
+    color: #fff;
+   
+    }
+    .butt .button-none {
+    width: 30px;
+    }
+    .menu button, .theme-cont button {
+        background-color:  #103787;;
+        border: 1.5px solid rgb(0, 117, 212);
+        color: #fff;
+        width: 35px;
+        height: 35px;
+    }
+    .menu button:hover {
+    background-color: #001c54;
+    transform: scale(1.1);
+    }
+    .menu button {
+    transition: all 0.1s;
+    }
+    .cont-menu {
+    position: fixed;
+    top: 3.5%;
+    left: 30px;
+    transition: all 0.4s;
+    }
+    .cont-menu button:hover {
+        background-color: #001c54;
+        transform: scale(1.05);
+    }
+    .cont-menu button {
+    transition: all 0.1s;
+    }
+    @media (max-width: 600px) {
+    .cont-menu {
+    display: none;
+    }
+    }
