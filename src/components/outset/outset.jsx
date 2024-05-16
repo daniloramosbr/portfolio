@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
-import "./outset.css";
-import Menu from "./menu/menu";
+import "./outset.scss";
+import Menu from "../menu/menu";
 import { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 
@@ -38,13 +38,21 @@ export default function Outset() {
           <h1>DANILO RAMOS</h1>
           <h4>Desenvolvedor Full Stack</h4>
           <div>
-            Crio aplicações web usando React e Node, estudando para cada
-            vez mais aperfeiçoar minhas habilidades, pois acho que com esforço podemos chegar á qualquer lugar.
+            Desenvolvedor altamente qualificado e motivado com experiência em
+            TypeScript, React e Node.js. Com uma sólida compreensão dos
+            princípios de programação, sou capaz de produzir código limpo e
+            eficiente.
           </div>
         </div>
         <ul className="icons">
+        <ol>
+            <ion-icon name="logo-javascript"></ion-icon>
+          </ol>
+        <ol>
+            <ion-icon name="logo-react"></ion-icon>
+          </ol>
           <ol>
-            <ion-icon name="logo-github"></ion-icon>
+            <ion-icon name="logo-nodejs"></ion-icon>
           </ol>
           <ol>
             <ion-icon name="logo-html5"></ion-icon>
@@ -53,17 +61,11 @@ export default function Outset() {
             <ion-icon name="logo-css3"></ion-icon>
           </ol>
           <ol>
-            <ion-icon name="logo-javascript"></ion-icon>
+            <ion-icon name="logo-github"></ion-icon>
           </ol>
-          <ol>
-            <ion-icon name="logo-react"></ion-icon>
-          </ol>
-          <ol>
-            <ion-icon name="logo-nodejs"></ion-icon>
-          </ol>
+         
         </ul>
       </main>
-
     </div>
   );
 }

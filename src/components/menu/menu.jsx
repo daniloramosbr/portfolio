@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
-import "./menu.css";
+import "./menu.scss";
 import { useContext, useState } from "react";
-import { ContextJsx } from "../../context/context";
+import { ContextJsx } from "../../context/context.jsx";
 
 export default function Menu() {
   const [width, setWidth] = useState("0%");

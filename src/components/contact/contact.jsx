@@ -1,10 +1,11 @@
-import "./contact.css";
+import "./contact.scss";
 
 export default function Contact() {
   return (
     <div className="cont-contact" id="up-contact">
-      <h1>CONTATE-ME</h1>
+     
       <ul className="cont-ul">
+      <h1>CONTATE-ME</h1>
         <ol>
           <b>
             <ion-icon name="call-outline"></ion-icon> <span>Telefone:</span>
@@ -17,12 +18,11 @@ export default function Contact() {
           </b>
           <span> daniloramoscr1905@gmail.com</span>
         </ol>
-        <hr />
         <ol>
-     <a href="https://www.linkedin.com/in/daniloramosbr"><button> <div> <ion-icon name="logo-linkedin"></ion-icon></div> <span>Linkedin</span></button></a>
+     <a href="https://www.linkedin.com/in/daniloramosbr" target="blank"><button> <div> <ion-icon name="logo-linkedin"></ion-icon></div> <span>Linkedin</span></button></a>
         </ol>
         <ol>
-      <a href="https://github.com/daniloramosbr"><button> <ion-icon name="logo-github"></ion-icon> <span>GitHub</span></button></a>
+      <a href="https://github.com/daniloramosbr" target="blank"><button> <ion-icon name="logo-github"></ion-icon> <span>GitHub</span></button></a>
         </ol>
       </ul>
     </div>
