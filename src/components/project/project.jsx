@@ -17,7 +17,7 @@ export default function Project() {
             <p>
               Um sistema de reserva, contém login com o google, criação de reserva com apiRest e banco de dados
             </p>
-            <a href="https://daniloramosbr.github.io/webchat/" target="blank">
+            <a href="https://daniloramosbr.github.io/reserva/" target="blank">
               <button>VER PROJETO</button>
             </a>
           </ol>
@@ -32,7 +32,7 @@ export default function Project() {
               <p>
               Um Chat para web/desktop, contém login e autenticação, criação de mensagens e outras funções
               </p>
-            <a href="https://daniloramosbr.github.io/notes/" target="blank">
+            <a href="https://daniloramosbr.github.io/webchat/" target="blank">
               <button>VER PROJETO</button>
             </a>
           </ol>
@@ -47,7 +47,7 @@ export default function Project() {
               <p>
               uma loja virtual que contém carrinho de compras, apiRest, aba de menu e outras funções
               </p>
-            <a href="https://daniloramosbr.github.io/filmes/" target="blank">
+            <a href="https://daniloramosbr.github.io/loja/" target="blank">
               <button>VER PROJETO</button>
             </a>
           </ol>
