@@ -1,11 +1,10 @@
 
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './App.css'
-import {ContextProvider} from '../src/context/context.jsx'
+import './App.scss'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-<ContextProvider>
+
 <App />
-</ContextProvider>
+
 )

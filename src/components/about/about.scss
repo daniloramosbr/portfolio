@@ -1,0 +1,92 @@
+
+$titleColor:  rgb(0, 217, 255);
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B);
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+
+.cont-outset {
+  width: 100%;
+  gap: 40px;
+  transition: all 0.3s;
+  padding: 10px;
+  padding: 8rem 0 8rem 0;
+  main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 6, 70);
+    border-radius: 25px;
+    padding: 10px;
+    border-top: 1.5px solid rgb(0, 140, 255);
+    border-bottom: 1.5px solid rgb(0, 140, 255);
+  }
+}
+#photo {
+  width: 230px;
+}
+.text-out {
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 9px;
+  padding: 20px;
+  h3 {
+    font-size: 20px;
+    color: $titleColor;
+  }
+  h1 {
+    cursor: pointer;
+    font-size: 40px;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(0, 217, 255);
+    border-radius: 3px;
+
+  }
+  h4 {
+    font-size: 20px;
+    color: $titleColor;
+  }
+  p{
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .icons {
+    display: flex;
+  justify-content: center;
+    gap: 30px;
+    width: 20%;
+  
+    span {
+      a {
+        ion-icon:hover {
+          color: $titleColor;
+          transform: scale(1.2);
+          transition: all 0.3s;
+        }
+        ion-icon {
+          font-size: 30px;
+          color: #ffffff;
+          transition: all 0.3s;
+        }
+      }
+    }
+  }
+}
+.about {
+  width: 100%;
+  max-width: 30%;  
+  span {
+    color: $titleColor;
+  }
+}
+
+@media (max-width: 600px) {
+  .about {
+    max-width: none;  
+}
+}

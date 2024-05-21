@@ -1,12 +1,14 @@
 import './home.scss'
-import Outset from '../outset/outset'
+import About from '../about/about'
 import Project from '../project/project'
 import Contact from '../contact/contact'
+import Skill from '../skill/skill'
 
 export default function Home() {
   return (
    <div className='cont-home'>
-     <Outset/>
+     <About/>
+     <Skill/>
     <Project/>
     <Contact/>
    </div>
