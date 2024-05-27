@@ -39,10 +39,10 @@ export default function Outset() {
             DESENVOLVEDOR FULL STACK
           </h4>
           <p className="about">
-            Desenvolvedor altamente qualificado e motivado com experiência em
-            <span> JavaScript, TypeScript, React, Next.js e Node.js.</span> Com uma sólida compreensão dos
-            princípios de programação, sou capaz de produzir código limpo e
-            eficiente.
+          Desenvolvedor totalmente motivado com experiência em <span>TypeScript, React, Next.js,
+Node.js e PostgreSQL.  </span> Com uma sólida compreensão dos princípios de programação
+sou capaz de criar Páginas responsivas, APIs RESTful e produzir código limpo.
+
           </p>
 
           <ul className="icons">

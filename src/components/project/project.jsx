@@ -12,7 +12,7 @@ export default function Project() {
             <hr />
             <h3>WEBCHAT</h3>
             <p>
-              Um Chat para web/desktop, contém login e autenticação, criação de
+              Um Chat para web, contém login e autenticação, aba de usuários, criação de
               mensagens e outras funções.
             </p>
             <a href="https://daniloramosbr.github.io/webchat/" target="blank">
