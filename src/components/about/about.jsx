@@ -21,14 +21,7 @@ export default function Outset() {
         rotate: {
           x: 100,
         },
-      });
-
-      ScrollReveal().reveal(".cont-ul", {
-        delay: 300,
-        rotate: {
-          x: 100,
-        },
-      });
+      })
      
     }
     Reveal();
