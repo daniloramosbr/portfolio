@@ -31,18 +31,22 @@ export default function Skill() {
           <p>EXPRESS JS</p>
          </li>
          <li>
-          <img src="prisma.png" alt="prisma" />
-          <p>PRISMA</p>
+          <img src="postgre.png" alt="postgre" />
+          <p>POSTGRE
+            SQL
+          </p>
          </li>
          <li>
           <img src="mongo.svg" alt="mongodb" />
           <p>MONGODB</p>
          </li>
          <li>
-          <img src="postgre.png" alt="postgre" />
-          <p>POSTGRE
-            SQL
-          </p>
+          <img src="prisma.png" alt="prisma" />
+          <p>PRISMA</p>
+         </li>
+         <li>
+          <img src="Jest.png" alt="jest" />
+          <p>JEST</p>
          </li>
          <li>
           <img src="tailwind.png" alt="tailwind" />
@@ -52,10 +56,7 @@ export default function Skill() {
           <img src="sass.svg" alt="sass" />
           <p>SASS</p>
          </li>
-         <li>
-          <img src="Jest.png" alt="jest" />
-          <p>JEST</p>
-         </li>
+         
          <li>
           <img src="css.svg" alt="css" />
           <p>CSS3</p>
@@ -63,6 +64,10 @@ export default function Skill() {
          <li>
           <img src="html.svg" alt="html" />
           <p>HTML5</p>
+         </li>
+         <li>
+          <img src="bootstrap.svg" alt="git" />
+          <p>BOOTSTRAP</p>
          </li>
          <li>
           <img src="git.svg" alt="git" />
