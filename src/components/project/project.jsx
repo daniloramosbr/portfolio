@@ -33,7 +33,7 @@ export default function Project() {
           <ol>
             <img src="reserva.png" alt="reserva" />
             <hr />
-            <h3>RESERVA HORÁRIO</h3>
+            <h3>RESERVA DE HORÁRIO</h3>
             <p>
               Um sistema de reserva, contém login com o google, criação de
               reserva com apiRest e banco de dados.
