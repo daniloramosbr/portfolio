@@ -22,7 +22,7 @@ export default function Contact() {
           </a>
         </ol>
         <ol>
-          <a href="https://drive.google.com/file/d/1MRX0XF2LWMShUsy1YnkglmzzaQoOiDTd/view?usp=drive_link" target="blank">
+          <a href="https://drive.google.com/file/d/1VVwXB4k5ogtechs1HSzfNBotqtdlLqSj/view?usp=sharing" target="blank">
           <ion-icon name="albums-outline"></ion-icon> <span>CURRÍCULO</span>
           </a>
         </ol>

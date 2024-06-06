@@ -34,7 +34,7 @@ export default function Outset() {
           <h1>DANILO RAMOS</h1>
           <h4>DESENVOLVEDOR FULL STACK</h4>
           <p className="about">
-            Desenvolvedor totalmente motivado com experiência em <span>TypeScript, React, Next.js, Node.js e PostgreSQL. </span> Com
+            Desenvolvedor full stack totalmente motivado com experiência em <span>TypeScript, React, Next.js, Node.js e PostgreSQL. </span> Com
             uma sólida compreensão dos princípios de programação sou capaz de
             criar Páginas responsivas, APIs RESTful e produzir código limpo.
           </p>
