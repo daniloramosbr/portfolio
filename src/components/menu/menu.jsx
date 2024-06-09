@@ -6,8 +6,6 @@ import { useContext, useState } from "react";
 export default function Menu() {
 
 const {width, setWidth, ScrollOut, ScrollTec, ScrollProject, ScrollCont} = useContext(ContextJsx)
-  
-
 
   return (
     <div className="cont-menu">

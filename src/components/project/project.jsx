@@ -1,11 +1,13 @@
 import "./project.scss";
+import Aos from "aos";
 
 
 export default function Project() {
+
+  Aos.init()
   return (
-    <div className="cont-project" id="up-project">
-      <main>
-        <h1>PROJETOS EM DESTAQUE</h1>
+      <main className="cont-project" id="up-project" data-aos="fade-right" data-aos-duration="1500">
+        <h1>PROJETOS EM DESTAQUE</h1> 
         <ul>
         <ol>
             <img src="chat.png" alt="chat" />
@@ -78,6 +80,6 @@ export default function Project() {
           </ol>
         </ul>
       </main>
-    </div>
+   
   );
 }

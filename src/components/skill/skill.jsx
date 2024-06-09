@@ -1,9 +1,10 @@
 import './skill.scss'
+import Aos from "aos";
 export default function Skill() {
+
+  Aos.init()
   return (
-    <div className='cont-skill' id='up-skill'>
-      <main>
-        <div className='skill-out'>
+        <div className='skill-out' id='up-skill' data-aos="fade-down">
         <h1>TECNOLOGIAS</h1>
         <ul className='list-skill'>
          <li>
@@ -56,7 +57,6 @@ export default function Skill() {
           <img src="sass.svg" alt="sass" />
           <p>SASS</p>
          </li>
-         
          <li>
           <img src="css.svg" alt="css" />
           <p>CSS3</p>
@@ -73,10 +73,7 @@ export default function Skill() {
           <img src="git.svg" alt="git" />
           <p>GIT/GITHUB</p>
          </li>
-        
         </ul>
-        </div>
-      </main>
     </div>
   )
 }

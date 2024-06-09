@@ -1,6 +1,7 @@
 import "./Header.scss";
 import { useContext } from "react";
 import { ContextJsx } from "../../context/context";
+import Menu from "../menu/menu";
 
 export default function Header() {
   
@@ -8,6 +9,7 @@ export default function Header() {
 
   return (
     <ul className="cont-header" id="up-header">
+       <Menu/>
       <li>
         <button onClick={ScrollOut}>INICIO</button>
       </li>

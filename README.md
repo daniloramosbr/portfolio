@@ -1,10 +1,6 @@
 # Bloco de Notas
 Projeto do meu Portfólio
 
-## Stack utilizada
-
-React, JavaScript, Sass
-
 ## 🔗 Links
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://daniloramosbr.github.io/portfolio/)

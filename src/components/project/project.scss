@@ -2,31 +2,25 @@ $titleColor: rgb(0, 217, 255);
 
 .cont-project {
   width: 100%;
+  background-color: rgb(0, 6, 70);
+  border-radius: 40px;
+  padding: 10px;
+  border: 1px solid rgb(0, 140, 255);
+  width: 100%;
   gap: 40px;
   transition: all 0.3s;
-  padding: 10px;
-  padding: 8rem 0 8rem 0;
+  margin: 10rem 0 10rem 0;
   ul {
     width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 10px;
-    gap: 30px;
-  
+    padding: 30px;
+    gap: 40px;
   }
   h3 {
     color: $titleColor;
   }
-}
-.cont-project main {
-  width: 100%;
-  background-color: rgb(0, 6, 70);
-  border-radius: 25px;
-  padding: 10px;
-  border-top: 1.5px solid rgb(0, 140, 255);
-  border-bottom: 1.5px solid rgb(0, 140, 255);
-
 }
 .cont-project h1 {
   text-align: center;

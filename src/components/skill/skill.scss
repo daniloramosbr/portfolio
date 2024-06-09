@@ -3,24 +3,6 @@ $titleColor: rgb(0, 217, 255);
 @import url(https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B);
 @import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
 
-.cont-skill {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  transition: all 0.3s;
-  padding: 10px;
-  padding: 8rem 0 8rem 0;
-  main {
-    width: 100%;
-    background-color: rgb(0, 6, 70);
-    border-radius: 25px;
-    padding: 10px;
-    border-top: 1.5px solid rgb(0, 140, 255);
-    border-bottom: 1.5px solid rgb(0, 140, 255);
-  }
-}
 .skill-out {
   display: flex;
   flex-direction: column;
@@ -29,6 +11,10 @@ $titleColor: rgb(0, 217, 255);
   gap: 10px;
   border-radius: 9px;
   padding: 20px;
+  background-color: rgb(0, 6, 70);
+  border: 1px solid rgb(0, 140, 255);
+  border-radius: 40px;
+  margin: 10rem 0 10rem 0;
   h1 {
     text-align: center;
     color: $titleColor;

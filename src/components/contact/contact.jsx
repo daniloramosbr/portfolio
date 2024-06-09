@@ -1,10 +1,13 @@
 import "./contact.scss";
+import Aos from "aos";
 
 export default function Contact() {
+
+  Aos.init()
   
   return (
-    <div className="cont-contact" id="up-contact">
-      <ul className="cont-ul">
+   
+      <ul className="cont-ul" id="up-contact" data-aos="fade-left"  data-aos-duration="1500">
         <h1>CONTATE-ME</h1>
         <ol>
           <a href="mailto:daniloramoscr1905@gmail.com" target="blank">
@@ -27,6 +30,6 @@ export default function Contact() {
           </a>
         </ol>
       </ul>
-    </div>
+   
   );
 }

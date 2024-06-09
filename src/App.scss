@@ -32,3 +32,9 @@ h3 {
   font-family: "Poppins";
   letter-spacing: 3px;
 }
+.home {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px 0 25px;
+  overflow-x: hidden;
+  }
