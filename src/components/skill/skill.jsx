@@ -42,8 +42,8 @@ export default function Skill() {
           <p>MONGODB</p>
          </li>
          <li>
-          <img src="prisma.png" alt="prisma" />
-          <p>PRISMA</p>
+          <img src="typeorm.png" alt="typeorm" />
+          <p>TYPEORM</p>
          </li>
          <li>
           <img src="Jest.png" alt="jest" />
@@ -58,16 +58,16 @@ export default function Skill() {
           <p>SASS</p>
          </li>
          <li>
+          <img src="nextui.png" alt="nextui" />
+          <p>NEXT UI</p>
+         </li>
+         <li>
           <img src="css.svg" alt="css" />
           <p>CSS3</p>
          </li>
          <li>
           <img src="html.svg" alt="html" />
           <p>HTML5</p>
-         </li>
-         <li>
-          <img src="bootstrap.svg" alt="git" />
-          <p>BOOTSTRAP</p>
          </li>
          <li>
           <img src="git.svg" alt="git" />
