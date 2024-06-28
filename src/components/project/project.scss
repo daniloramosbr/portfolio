@@ -10,6 +10,38 @@ $titleColor: rgb(0, 217, 255);
   gap: 40px;
   transition: all 0.3s;
   margin: 10rem 0 10rem 0;
+  ol {
+
+    width: 100%;
+    background-color: #0d1857;
+    
+      img {
+        width: 100%;
+      }
+    
+      button {
+        width: 100%;
+        background-color: #103787;
+        border: 1.5px solid rgb(0, 117, 212);
+        color: #fff;
+        transition: all 0.2s linear;
+        font-family: 'poppins';
+      }
+      cursor: pointer;
+      width: 30%;
+      border: 1px solid rgb(0, 117, 212);
+      text-align: center;
+      border-radius: 7px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      padding: 5px;
+      padding-bottom: 10px;
+      transition: all 0.4s;
+      p {
+        font-family: 'poppins';
+      }
+    }
   ul {
     width: 100%;
     display: flex;
@@ -21,44 +53,15 @@ $titleColor: rgb(0, 217, 255);
   h3 {
     color: $titleColor;
   }
+  h1 {
+    text-align: center;
+    font-family: "Poppins";
+    letter-spacing: 2px;
+    color: $titleColor;
+    padding: 10px;
+  }
 }
-.cont-project h1 {
-  text-align: center;
-  font-family: "Poppins";
-  letter-spacing: 2px;
-  color: $titleColor;
-  padding: 10px;
-}
-.cont-project ol {
 
-width: 100%;
-  img {
-    width: 100%;
-  }
-
-  button {
-    width: 100%;
-    background-color: #103787;
-    border: 1.5px solid rgb(0, 117, 212);
-    color: #fff;
-  }
-  cursor: pointer;
-  width: 30%;
-  border: 1px solid rgb(0, 117, 212);
-  text-align: center;
-  border-radius: 7px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  padding: 5px;
-  padding-bottom: 10px;
-  transition: all 0.4s;
-  p {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
-      font-size: 20px;
-  }
-}
 .cont-project ol:hover {
   transform: scale(1.08);
 

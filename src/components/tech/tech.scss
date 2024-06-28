@@ -20,40 +20,45 @@ $titleColor: rgb(0, 217, 255);
     color: $titleColor;
   }
 }
-
-.list-skill {
+.list-tech {
   width: 100%;
+  max-width: 65rem; 
   display: flex;
   justify-content: center;
-  gap: 10px;
-  margin-top: 10px;
-  div:hover {
-    transform: scale(1.05);
+  flex-wrap: wrap;
+  list-style-type: none;
+  li:hover {
+    transform: scale(1.25);
     color: $titleColor;
     cursor: pointer;
+    transition: all 0.3s;
   }
-  div {
-    text-align: center;
+  li {
+    transition: all 0.3s;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 10px;
-    border: 1px solid rgb(0, 140, 255);
-    border-radius: 20px;
-    padding: 5px;
-    transition: all 0.2s linear;
-    h2 {
-      color: $titleColor;
-      font-family: 'poppins';
-    }
+    width: 12%;
+    padding: 20px;
+    border-radius: 10px;
     p {
-      font-family: 'poppins';
+      text-align: center;
+      font-family: 'poppins'
+    }
+    img {
+      width: 100%;
     }
   }
- 
 }
-@media (max-width: 990px) {
-.list-skill {
-  flex-direction: column;
-  gap: 20px;
-}
+@media (max-width: 700px) {
+
+  .list-tech {
+   max-width: none;
+   li {
+    display: flex;
+    width: 40%;
+   }
+  }
+  
 }

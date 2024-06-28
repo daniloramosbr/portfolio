@@ -13,7 +13,8 @@
   background-color: rgb(0, 6, 70);
   margin: 10rem 0 15rem 0;
   ol {
-    width: 100%;
+   width: 100%;
+   max-width: 40rem;
     display: flex;
     text-align: center;
     align-items: center;
@@ -27,23 +28,22 @@
     color: #fff;
   }
   ol a:hover {
-    transform: scale(1.1);
+    transform: scale(1.08);
     background-color: #001c54;
    
   }
   ol a {
-    width: 40%;
+    width: 100%;
     height: 3rem;
     background-color: #103787;
     border: 1px solid rgb(0, 117, 212);
+    display: flex;
     text-align: center;
     align-items: center;
-    display: flex;
     border-radius: 10px;
     padding: 15px;
     justify-content: center;
     gap: 8px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     transition: all 0.3s;
     ion-icon {
       font-size: 30px;
@@ -51,7 +51,7 @@
     }
   }
   ol span {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
-  }
+    font-family: 'poppins';
+  
+}
 }

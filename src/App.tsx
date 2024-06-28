@@ -2,16 +2,18 @@
 import "./App.scss";
 import Header from "./components/header/Header";
 import About from "./components/about/about";
-import Skill from "./components/skill/skill";
+import Tech from "./components/tech/tech";
 import Project from "./components/project/project";
 import Contact from "./components/contact/contact";
+import Skill from "./components/skill/skill";
 
 export default function App() {
   return (
     <main className="home">
       <Header />
       <About />
-      <Skill />
+      <Tech/>
+      <Skill/>
       <Project />
       <Contact />
     </main>

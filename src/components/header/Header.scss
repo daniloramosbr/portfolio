@@ -9,19 +9,24 @@
     transform: scale(1.1);
     background-color: #001c54;
   }
+  li {
+    width: 100%;
+    max-width: 10rem;
+  }
   li button {
-    width: 10rem;
+   width: 100%;
     background-color: #103787;
     border: 1.5px solid rgb(0, 117, 212);
     color: #fff;
     height: 3rem;
     transition: all 0.2s linear;
+    font-family: 'poppins';
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 435px) {
 
   .cont-header {
   display: none;
   }
-  
+
 }

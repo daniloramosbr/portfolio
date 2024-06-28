@@ -25,7 +25,7 @@ export default function Contact() {
           </a>
         </ol>
         <ol>
-          <a href="https://drive.google.com/file/d/1VVwXB4k5ogtechs1HSzfNBotqtdlLqSj/view?usp=sharing" target="blank">
+          <a href="https://drive.google.com/file/d/17i_BH2k2XJhBCA1tpnYHAI8j3atDMf6_/view?usp=sharing" target="blank">
           <ion-icon name="albums-outline"></ion-icon> <span>CURRÍCULO</span>
           </a>
         </ol>

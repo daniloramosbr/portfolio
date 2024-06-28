@@ -1,11 +1,11 @@
 /* eslint-disable no-unused-vars */
 import { ContextJsx } from "../../context/context";
 import "./menu.scss";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 
 export default function Menu() {
 
-const {width, setWidth, ScrollOut, ScrollTec, ScrollProject, ScrollCont} = useContext(ContextJsx)
+const {width, setWidth, ScrollOut, ScrollTec, ScrollProject, ScrollCont, ScrollSkill} = useContext(ContextJsx)
 
   return (
     <div className="cont-menu">
@@ -42,6 +42,9 @@ const {width, setWidth, ScrollOut, ScrollTec, ScrollProject, ScrollCont} = useCo
         </div>
         <div>
           <button onClick={ScrollTec}>TECNOLOGIAS</button>
+        </div>
+        <div>
+          <button onClick={ScrollSkill}>SOFT SKILLS</button>
         </div>
         <div>
           <button onClick={ScrollProject}>PROJETOS</button>

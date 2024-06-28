@@ -23,6 +23,7 @@
   background-color: #103787;
   border: 1.5px solid rgb(0, 117, 212);
   color: #fff;
+  font-family: 'poppins';
 }
 .butt .button-none {
   width: 40px;
@@ -45,8 +46,8 @@
 .cont-menu {
   z-index: 999;
   position: fixed;
-  top: 20px;
-  left: 35px;
+  top: 5rem;
+  left: 3rem;
   transition: all 0.4s;
 }
 .cont-menu button:hover {
@@ -55,9 +56,4 @@
 }
 .cont-menu button {
   transition: all 0.1s;
-}
-@media (max-width: 600px) {
-  .cont-menu {
-    display: none;
-  }
 }

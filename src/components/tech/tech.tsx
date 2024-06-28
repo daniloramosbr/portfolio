@@ -1,12 +1,12 @@
-import './skill.scss'
+import './tech.scss'
 import Aos from "aos";
-export default function Skill() {
+export default function Tech() {
 
   Aos.init()
   return (
-        <div className='skill-out' id='up-skill' data-aos="fade-down">
+        <div className='skill-out' id='up-tech' data-aos="fade-down">
         <h1>TECNOLOGIAS</h1>
-        <ul className='list-skill'>
+        <ul className='list-tech'>
          <li>
           <img src="tsc.png" alt="typescript" />
           <p>TYPESCRIPT</p>

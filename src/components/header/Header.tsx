@@ -5,7 +5,7 @@ import Menu from "../menu/menu";
 
 export default function Header() {
   
-  const {ScrollOut, ScrollTec, ScrollProject, ScrollCont} = useContext(ContextJsx)
+  const {ScrollOut, ScrollTec, ScrollProject, ScrollCont, ScrollSkill} = useContext(ContextJsx)
 
   return (
     <ul className="cont-header" id="up-header">
@@ -15,6 +15,9 @@ export default function Header() {
       </li>
       <li>
         <button onClick={ScrollTec}>TECNOLOGIAS</button>
+      </li>
+      <li>
+        <button onClick={ScrollSkill}>SOFT SKILLS</button>
       </li>
       <li>
         <button onClick={ScrollProject}>PROJETOS</button>
