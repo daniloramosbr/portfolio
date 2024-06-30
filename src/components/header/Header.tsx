@@ -26,5 +26,5 @@ export default function Header() {
         <button onClick={ScrollCont}>CONTATO</button>
       </li>
     </ul>
-  );
+  )
 }

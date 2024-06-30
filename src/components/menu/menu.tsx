@@ -13,8 +13,7 @@ const {width, setWidth, ScrollOut, ScrollTec, ScrollProject, ScrollCont, ScrollS
         <div className="menu">
         <button
           onClick={() => {
-            setWidth("30%");
-           
+            setWidth("40%");
           }}
         >
           <ion-icon name="menu"></ion-icon>
