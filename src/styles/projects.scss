@@ -1,0 +1,39 @@
+.cont-project {
+    
+h1 {
+    font-size: 2.3rem;
+}
+.cont-carr {
+  width: 100%;
+ display: block;
+ justify-content: center;
+ margin: auto;
+ border: 1px solid #6756fc;
+ border-radius: 4px;
+}
+.cont-chat {
+  padding: 2.5rem
+  
+}
+}
+.slick-center {
+  transform: scale(1.2); 
+  transition: all 0.4s;
+}
+.slider-container {
+  transition: all 0.4s;
+
+}
+.slick-slide:not(.slick-center) {
+  transform: scale(0.85); 
+}
+@media (max-width: 800px) {
+  .cont-project {
+    .cont-chat {
+      padding:1rem
+      
+    }
+  }
+ 
+ 
+}

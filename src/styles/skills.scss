@@ -1,0 +1,63 @@
+.cont-skills {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+  
+    h1 {
+        font-size: 2.3rem;
+    }
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    h2 {
+      font-size: 1.3rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  
+    button {
+      .skills {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        transition: all 0.3s;
+        
+      }
+    }
+    .skills:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+    .trs {
+      transition: all 0.3s;
+   
+    }
+    .trs:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+   
+  }
+  .skills-one {
+    @apply  cont-h skills trs shadow__header relative inline-flex active:scale-95 overflow-hidden rounded-3xl p-[1px] focus:outline-none
+  
+  }
+  .skills-two {
+    @apply  absolute inset-[-5%] animate-[spin_3s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#5340fa_0%,#9972f4_50%,#6453ff_100%)]
+  }
+  .skills-three {
+    @apply  inline-flex trs flex-col h-full w-full cursor-pointer items-center justify-center rounded-3xl bg-primary-bg p-1 font-medium text-white backdrop-blur-3xl gap-2
+  }
+  @media (max-width: 768px) {
+    .cont-skills {
+      ul {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+    }
+  }

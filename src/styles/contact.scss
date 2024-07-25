@@ -1,0 +1,13 @@
+.cont-contact {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-size: 2.3rem;
+  }
+}
+.cont-h {
+  transition: all 0.25s;
+}
+.cont-h:hover {
+ transform: scale(1.07);
+}

@@ -1,0 +1,66 @@
+$buttonColor: #103787; 
+
+.cont-header {
+  display: flex;
+  justify-content: flex-end; 
+  gap: 1rem;
+  overflow-x: hidden;
+  padding: 0.5rem;
+}
+
+.cont-h {
+  transition: all 0.25s;
+}
+
+.cont-h:hover {
+  transform: scale(1.1);
+}
+
+li {
+  width: 100%;
+  max-width: 10rem;
+}
+
+button {
+  width: 100%;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  /* Estilos para telas menores (como dispositivos móveis) */
+  .cont-header {
+    flex-direction: column; /* Empilhe os itens verticalmente */
+  }
+
+  li {
+    max-width: none; /* Remova a largura máxima */
+  }
+}
+
+
+
+  .shadow__header {
+    
+    box-shadow: 0 0 10px #5340fa;
+  }
+  
+  .shadow__header:hover {
+    box-shadow: 0 0 5px #5340fa,
+                0 0 10px #5340fa,
+                0 0 10px #5340fa,
+                0 0 10px #5340fa;
+  }
+  .header-one {
+    @apply cont-h shadow__header relative inline-flex h-12 overflow-hidden rounded-lg p-[1px] focus:outline-none;
+  
+  }
+
+  .header-two {
+    @apply absolute inset-[-1000%] animate-[spin_1s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#5340fa_0%,#9972f4_50%,#6453ff_100%)];
+  
+  }
+
+  .header-three {
+    @apply inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-primary-bg px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2
+  
+  }
