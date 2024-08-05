@@ -165,7 +165,7 @@ ion-icon {
 
 }
 .menu-two {
-  @apply  absolute inset-[-1000%] animate-[spin_1s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#5340fa_0%,#9972f4_50%,#6453ff_100%)]
+  @apply  absolute inset-[-1000%]  bg-[conic-gradient(from_90deg_at_50%_50%,#5340fa_0%,#9972f4_50%,#6453ff_100%)]
 
 }
 .menu-three {

@@ -2,7 +2,7 @@
 export default function Skills() {
   return (
   
-       <span id="skills" className="cont-skills flex cont-effect shadow__btn mb-72">
+       <span data-aos= "fade-up" id="skills" className="cont-skills flex cont-effect shadow__btn mb-72">
        <h1>SOFT SKILLS</h1>
         <ul>
 
