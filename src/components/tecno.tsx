@@ -45,8 +45,8 @@ export default function Tecno() {
           <p>PRISMA</p>
          </li>
          <li>
-          <Image src="Jest.png" alt="jest" />
-          <p>JEST</p>
+          <Image src="python.svg" alt="python" />
+          <p>PYTHON</p>
          </li>
          <li>
           <Image src="tailwind.png" alt="tailwind" />
