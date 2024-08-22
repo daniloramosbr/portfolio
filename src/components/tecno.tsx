@@ -36,17 +36,17 @@ export default function Tecno() {
             SQL
           </p>
          </li>
-         <li>
-          <Image src="mongo.svg" alt="mongodb" />
-          <p>MONGODB</p>
+          <li>
+          <Image src="python.svg" alt="python" />
+          <p>PYTHON</p>
          </li>
          <li>
           <Image src="prisma.png" alt="prisma" />
           <p>PRISMA</p>
          </li>
-         <li>
-          <Image src="python.svg" alt="python" />
-          <p>PYTHON</p>
+           <li>
+          <Image src="mongo.svg" alt="mongodb" />
+          <p>MONGODB</p>
          </li>
          <li>
           <Image src="tailwind.png" alt="tailwind" />
