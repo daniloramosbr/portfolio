@@ -18,15 +18,15 @@ export default function About() {
       </div>
       <h4>DESENVOLVEDOR FULL STACK</h4>
       <p className="about">
-        Desenvolvedor full stack totalmente motivado com experiência em 
-        <span> TypeScript, React, Next.js, Node.js e PostgreSQL. </span> Com uma
+        Desenvolvedor full stack totalmente motivado com foco em
+        <span> TypeScript, JavaScript, React, Node.js e PostgreSQL. </span> Com uma
         sólida compreensão dos princípios de programação sou capaz de criar
         Páginas responsivas, APIs RESTful e produzir código limpo.
       </p>
       <ul>
         <Tooltip placement="bottom" content="GitHub">
           <span>
-            <a href="https://github.com/daniloramosbr" target="blank">
+            <a href="https://github.com/dancodebr" target="blank">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </span>
